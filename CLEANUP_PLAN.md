@@ -1,8 +1,11 @@
-# Cleanup Plan
+# План очистки
 
-- [ ] Decide whether this is case-study-only or demo-code repo.
-- [ ] If demo-code: create neutral memory schema and synthetic examples.
-- [ ] Exclude production docs with owner IDs, real domains, real profile data or session history.
-- [ ] Add explicit disclaimer: not medical advice, not therapy replacement.
-- [ ] Run secret scan before first GitHub push.
-
+- [x] Выбрать безопасный формат: demo-code + case study, не production dump.
+- [x] Не копировать исходные docs с owner IDs, доменами, VPS/IP, Supabase details и production settings.
+- [x] Создать нейтральную demo-реализацию memory workflow на синтетических данных.
+- [x] Добавить безопасный `.env.example` только с placeholder-значениями.
+- [x] Добавить публичные `AGENTS.md` / `CLAUDE.md`.
+- [x] Добавить explicit disclaimer: не медицинская услуга, не терапия, не замена специалиста.
+- [x] Добавить tests без реальных psychological/profile/session data.
+- [x] Запустить tests/syntax check.
+- [x] Запустить secret/privacy scan перед первым GitHub push.
