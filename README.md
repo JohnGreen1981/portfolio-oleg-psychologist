@@ -4,6 +4,23 @@
 
 Это не прямая копия production-проекта. Оригинальный проект связан с чувствительной психологической перепиской, поэтому публичная версия показывает архитектурные решения на синтетических данных и без внешних API.
 
+## Демо
+
+Слайды презентации продукта — обложка, концепция, пользовательский путь, работа памяти.
+
+<p align="center">
+  <img src="docs/screenshots/01-cover.png" width="80%" alt="Обложка: Олег — личный AI-психолог в Telegram" />
+</p>
+<p align="center">
+  <img src="docs/screenshots/02-what-and-why.png" width="80%" alt="Что это и зачем: помнит контекст, голос и текст, 24/7 в Telegram" />
+</p>
+<p align="center">
+  <img src="docs/screenshots/03-how-to-use.png" width="80%" alt="Как пользоваться: войти, говорить, завершить" />
+</p>
+<p align="center">
+  <img src="docs/screenshots/04-memory.png" width="80%" alt="Память: дневник сессий с настроением, целью, инсайтом и следующим шагом" />
+</p>
+
 ## Что показывает проект
 
 - Long-term memory workflow для AI-assistant.
